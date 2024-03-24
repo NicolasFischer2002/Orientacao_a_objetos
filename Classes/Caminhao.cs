@@ -88,7 +88,7 @@ namespace Orientacao_a_objetos.Classes
 
         public void ExibeIPVA(int anoFabricacao, float valorFipe)
         {
-            Console.WriteLine($"IPVA: {UnidadeMonetaria}{IPVA(anoFabricacao, valorFipe)}");
+            Console.WriteLine($"IPVA: {UnidadeMonetaria} {IPVA(anoFabricacao, valorFipe)}");
         }
     }
 }

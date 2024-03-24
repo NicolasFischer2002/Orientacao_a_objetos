@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Orientacao_a_objetos.Classes
 {
-    internal class CartaoCorporativo : CartaoCredito
+    internal class CartaoCreditoCorporativo : CartaoCredito
     {
         public string CodigoCartao { get; }
         public string NomeEmpresa { get; }
 
-        public CartaoCorporativo(TiposCartao tipoCartao, string numero, int cvv, DateOnly vencimento, string bandeira, bool internacional, 
+        public CartaoCreditoCorporativo(TiposCartao tipoCartao, string numero, int cvv, DateOnly vencimento, string bandeira, bool internacional, 
             string codigoCartao, string nomeEmpresa) 
             : base(tipoCartao, numero, cvv, vencimento, bandeira, internacional)
         {

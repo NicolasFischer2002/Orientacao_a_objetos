@@ -33,10 +33,10 @@ namespace Orientacao_a_objetos.Classes
             if (parcelas < 1 || parcelas > 60)
                 throw new ArgumentException("O valor mínimo de parcelas é 1 e o máximo é 60!");
 
-            if (documentoCliente.Length != 11 || documentoCliente.Length != 14)
+            if (documentoCliente.Length != 11 && documentoCliente.Length != 14)
                 throw new ArgumentException("Documento do cliente inválido!");
 
-            if (documentoVendedor.Length != 11 || documentoVendedor.Length != 14)
+            if (documentoVendedor.Length != 11 && documentoVendedor.Length != 14)
                 throw new ArgumentException("Documento do vendedor inválido!");
 
             if (codigoIdentificacao.Length != 17)

@@ -33,17 +33,17 @@ namespace Orientacao_a_objetos.Classes
 
         public void FazVenda()
         {
-            Console.WriteLine("Venda no depósito efetuada com sucesso!");
+            Console.WriteLine("\nVenda no depósito efetuada com sucesso!");
         }
 
         public void CancelaVenda()
         {
-            Console.WriteLine("Venda no depósito cancelada com sucesso!");
+            Console.WriteLine("\nVenda no depósito cancelada com sucesso!");
         }
 
         public void EstornaVenda()
         {
-            Console.WriteLine("Venda no depósito estornada com sucesso!");
+            Console.WriteLine("\nVenda no depósito estornada com sucesso!");
         }
     }
 }

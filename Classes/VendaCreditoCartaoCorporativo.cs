@@ -9,10 +9,10 @@ namespace Orientacao_a_objetos.Classes
 {
     internal class VendaCreditoCartaoCorporativo : Venda, IVenda
     {
-        public CartaoCorporativo CartaoCorporativo { get;}
+        public CartaoCreditoCorporativo CartaoCorporativo { get;}
 
         public VendaCreditoCartaoCorporativo(MetodoVenda metodo, float valor, int parcelas, DateTime momentoVenda, string documentoCliente, 
-            string documentoVendedor, string codigoIdentificacao, CartaoCorporativo cartaoCorporativo) 
+            string documentoVendedor, string codigoIdentificacao, CartaoCreditoCorporativo cartaoCorporativo) 
             : base(metodo, valor, parcelas, momentoVenda, documentoCliente, documentoVendedor, codigoIdentificacao)
         {
             CartaoCorporativo = cartaoCorporativo;
@@ -20,17 +20,17 @@ namespace Orientacao_a_objetos.Classes
 
         public void FazVenda()
         {
-            Console.WriteLine("Venda no cartão de crédito corporativo efetuada com sucesso!");
+            Console.WriteLine("\nVenda no cartão de crédito corporativo efetuada com sucesso!");
         }
 
         public void CancelaVenda()
         {
-            Console.WriteLine("Venda no cartão de crédito corporativo cancelada com sucesso!");
+            Console.WriteLine("\nVenda no cartão de crédito corporativo cancelada com sucesso!");
         }
 
         public void EstornaVenda()
         {
-            Console.WriteLine("Venda no cartão de crédito corporativo estornada com sucesso!");
+            Console.WriteLine("\nVenda no cartão de crédito corporativo estornada com sucesso!");
         }
     }
 }

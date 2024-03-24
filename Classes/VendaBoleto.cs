@@ -20,17 +20,17 @@ namespace Orientacao_a_objetos.Classes
 
         public void FazVenda()
         {
-            Console.WriteLine("Venda no boleto efetuada com sucesso!");
+            Console.WriteLine("\nVenda no boleto efetuada com sucesso!");
         }
 
         public void CancelaVenda()
         {
-            Console.WriteLine("Venda no boleto cancelada com sucesso!");
+            Console.WriteLine("\nVenda no boleto cancelada com sucesso!");
         }
 
         public void EstornaVenda()
         {
-            Console.WriteLine("Venda no boleto estornada com sucesso!");
+            Console.WriteLine("\nVenda no boleto estornada com sucesso!");
         }
     }
 }

@@ -20,17 +20,17 @@ namespace Orientacao_a_objetos.Classes
 
         public void FazVenda()
         {
-            Console.WriteLine("Venda no cartão de crédito pessoal efetuada com sucesso!");
+            Console.WriteLine("\nVenda no cartão de crédito pessoal efetuada com sucesso!");
         }
 
         public void CancelaVenda()
         {
-            Console.WriteLine("Venda no cartão de crédito pessoal cancelada com sucesso!");
+            Console.WriteLine("\nVenda no cartão de crédito pessoal cancelada com sucesso!");
         }
 
         public void EstornaVenda()
         {
-            Console.WriteLine("Venda no cartão de crédito pessoal estornada com sucesso!");
+            Console.WriteLine("\nVenda no cartão de crédito pessoal estornada com sucesso!");
         }
     }
 }
