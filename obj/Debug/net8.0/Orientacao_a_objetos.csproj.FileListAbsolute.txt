@@ -1,0 +1,14 @@
+C:\Users\Micro\Desktop\Orientação a objetos\Orientacao_a_objetos\bin\Debug\net8.0\Orientacao_a_objetos.exe
+C:\Users\Micro\Desktop\Orientação a objetos\Orientacao_a_objetos\bin\Debug\net8.0\Orientacao_a_objetos.deps.json
+C:\Users\Micro\Desktop\Orientação a objetos\Orientacao_a_objetos\bin\Debug\net8.0\Orientacao_a_objetos.runtimeconfig.json
+C:\Users\Micro\Desktop\Orientação a objetos\Orientacao_a_objetos\bin\Debug\net8.0\Orientacao_a_objetos.dll
+C:\Users\Micro\Desktop\Orientação a objetos\Orientacao_a_objetos\bin\Debug\net8.0\Orientacao_a_objetos.pdb
+C:\Users\Micro\Desktop\Orientação a objetos\Orientacao_a_objetos\obj\Debug\net8.0\Orientacao_a_objetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Micro\Desktop\Orientação a objetos\Orientacao_a_objetos\obj\Debug\net8.0\Orientacao_a_objetos.AssemblyInfoInputs.cache
+C:\Users\Micro\Desktop\Orientação a objetos\Orientacao_a_objetos\obj\Debug\net8.0\Orientacao_a_objetos.AssemblyInfo.cs
+C:\Users\Micro\Desktop\Orientação a objetos\Orientacao_a_objetos\obj\Debug\net8.0\Orientacao_a_objetos.csproj.CoreCompileInputs.cache
+C:\Users\Micro\Desktop\Orientação a objetos\Orientacao_a_objetos\obj\Debug\net8.0\Orientacao_a_objetos.dll
+C:\Users\Micro\Desktop\Orientação a objetos\Orientacao_a_objetos\obj\Debug\net8.0\refint\Orientacao_a_objetos.dll
+C:\Users\Micro\Desktop\Orientação a objetos\Orientacao_a_objetos\obj\Debug\net8.0\Orientacao_a_objetos.pdb
+C:\Users\Micro\Desktop\Orientação a objetos\Orientacao_a_objetos\obj\Debug\net8.0\Orientacao_a_objetos.genruntimeconfig.cache
+C:\Users\Micro\Desktop\Orientação a objetos\Orientacao_a_objetos\obj\Debug\net8.0\ref\Orientacao_a_objetos.dll
