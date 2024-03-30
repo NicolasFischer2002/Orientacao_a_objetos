@@ -1,8 +1,14 @@
 ﻿
 ═════> Descrições a respeito da arquitetura, desing, e novas práticas e tecnologias adotadas
 
-═> TAG SUMMARY:
+═> TRATAMENTO DE EXCEÇÕES APENAS NO MÉTODO CHAMADOR FORA DA CLASSE:
+Esta técnica visa deixar o código mais limpo, facilitando no entendimento e a velocidade do desenvolvimento.
+O tratamento de exceções só deve ser feito no método chamador localizado fora da classe, podendo ser no 
+método main de uma aplicação Console, ou em alguma Controller de uma aplicação WEB por exemplo. 
+Graças a esta convenção durante o desenvolvimento economiza-se código e tempo, pois não se faz necessário 
+pensar em um tratamento de exceção para cada método existente na aplicação.
 
+═> TAG SUMMARY:
 Muito útil para distinguir facilmente comentários descritivos relativos à classes, propriedades de classes e
 métodos, de comentários específicos referentes a porções menores de código e de caráter local.
 Um exemplo da sua utilidade deixando de lado seu caráter estético, é a possibilidade de adicionar comentários

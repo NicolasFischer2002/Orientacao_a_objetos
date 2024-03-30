@@ -1,42 +1,58 @@
 ﻿
+/*
+
+LEIA O README.
+
+Este estudo abrange diversos temas, todos ligados à Orientação à Objetos, Arquitetura de Software e boas práticas de codificação.
+
+O sistema se baseia em uma implementação para um estacionamento que comercializa carros e caminhões. A interação e dinâmica de funcionamento
+não são o foco deste estudo. O que realmente importa são os códigos e a estrutura do sistema. Como tudo está organizado, documentado 
+e padronizado.
+
+"Uma Arquitetura Limpa permite que o código seja robusto e uniforme, seu desenvolvimento divertido e seu funcionamento, semelhante ao de um relógio suíço."
+Nicolas Fischer, 30/03/2024
+
+ */
 
 using Orientacao_a_objetos.Classes;
 
 try
 {
-    // Exemplo prático de como montar um objeto da classe concreta Carro herdado da classe abstrata Veiculo
+    // Alimentando o sistema para possibilitar, mesmo que de forma sucinta, alguma dinamicidade.
+
+    // Exemplo prático de como montar um objeto da classe concreta Carro herdado da classe abstrata Veiculo.
     Carro carro = new Carro("9BWHE21JX24060831", "Hyundai", "Azera", 2011, true, Veiculo.TiposCombustivel.Gasolina, 75,
          265, true, Veiculo.Tracoes.Dianteira, Veiculo.Cores.Preto, "FET6458", 5, 2, 5, 30000, 35000, true, 469, 4, true);
 
-    // Exemplo prático de como montar um objeto da classe concreta Caminhao herdado da classe abstrata Veiculo
+    // Exemplo prático de como montar um objeto da classe concreta Caminhao herdado da classe abstrata Veiculo.
     Caminhao caminhao = new Caminhao("VIN12345678901234", "Volvo", "FH 540", 2024, false, Veiculo.TiposCombustivel.Diesel, 500, 540, true,
         Veiculo.Tracoes.QuatroPorQuatro, Veiculo.Cores.Prata, "ABC1234", 12, 4, 2, 500000, 550000, 25, 4, Caminhao.TiposCarroceria.Bau,
         Caminhao.TiposSuspensao.FeixeDeMolas, 4.5f);
 
-    // Antes de realizar a confecção dos objetos relativos à Venda, é necessário confeccionar os objetos que serão anexados na venda
-    // Em especial, os cartões, para vendas crédito
+    // Antes de realizar a confecção dos objetos relativos à Venda, é necessário confeccionar os objetos que serão anexados na venda.
+    // Em especial, os cartões, para vendas crédito.
 
-    // Exemplo prático de como montar um objeto da classe concreta CartaoCreditoPessoal herdada da classe abstrata CartaoCredito
+    // Exemplo prático de como montar um objeto da classe concreta CartaoCreditoPessoal herdada da classe abstrata CartaoCredito.
     CartaoCreditoPessoal cartaoCreditoPessoal = new CartaoCreditoPessoal(CartaoCredito.TiposCartao.Pessoal, "0123456789012345", 100, 
         DateOnly.MaxValue, "Visa", false, "Nicolas C Fischer");
 
-    // Exemplo prático de como montar um objeto da classe concreta CartaoCreditoCorporativo herdada da classe abstrata CartaoCredito
+    // Exemplo prático de como montar um objeto da classe concreta CartaoCreditoCorporativo herdada da classe abstrata CartaoCredito.
     CartaoCreditoCorporativo cartaoCreditoCorporativo = new CartaoCreditoCorporativo(CartaoCredito.TiposCartao.Corporativo, "0123456789012345",
         101, DateOnly.MaxValue, "Cielo", true, "098765432109876", "Fischer Digital Dynamics");
 
-    // Exemplo prático de como montar um objeto da classe concreta VendaCreditoCartaoPessoal herdada da classe abstrata Venda
+    // Exemplo prático de como montar um objeto da classe concreta VendaCreditoCartaoPessoal herdada da classe abstrata Venda.
     VendaCreditoCartaoPessoal vendaCreditoCartaoPessoal = new VendaCreditoCartaoPessoal(Venda.MetodoVenda.Credito, 35000, 12, DateTime.Now,
         "55928023300", "66920423355", "9BWHE21JX24060831", cartaoCreditoPessoal);
 
-    // Exemplo prático de como montar um objeto da classe concreta VendaCreditoCartaoCorporativo herdada da classe abstrata Venda
+    // Exemplo prático de como montar um objeto da classe concreta VendaCreditoCartaoCorporativo herdada da classe abstrata Venda.
     VendaCreditoCartaoCorporativo vendaCreditoCartaoCorporativo = new VendaCreditoCartaoCorporativo(Venda.MetodoVenda.Credito, 550000, 1, DateTime.Now,
         "55928023300", "99925223341", "VIN12345678901234", cartaoCreditoCorporativo);
 
-    // Exemplo prático de como montar um objeto da classe concreta VendaDeposito herdada da classe abstrata Venda
+    // Exemplo prático de como montar um objeto da classe concreta VendaDeposito herdada da classe abstrata Venda.
     VendaDeposito vendaDeposito = new VendaDeposito(Venda.MetodoVenda.Deposito, 550000, 1, DateTime.Now, "55928023300", "99925223341", "VIN12345678901234",
         "Nubank", "000001-01", "000001");
 
-    // Exemplo prático de como montar um objeto da classe concreta VendaBoleto herdada da classe abstrata Venda
+    // Exemplo prático de como montar um objeto da classe concreta VendaBoleto herdada da classe abstrata Venda.
     VendaBoleto vendaBoleto = new VendaBoleto(Venda.MetodoVenda.Boleto, 35000, 12, DateTime.Now, "55928023300", "66920423355", "9BWHE21JX24060831",
         DateOnly.MaxValue);
 
