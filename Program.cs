@@ -9,7 +9,7 @@ try
          265, true, Veiculo.Tracoes.Dianteira, Veiculo.Cores.Preto, "FET6458", 5, 2, 5, 30000, 35000, true, 469, 4, true);
 
     // Exemplo prático de como montar um objeto da classe concreta Caminhao herdado da classe abstrata Veiculo
-    Caminhao caminhao = new Caminhao("VIN12345678901234", "Volvo", "FH 540", 2023, false, Veiculo.TiposCombustivel.Diesel, 500, 540, true,
+    Caminhao caminhao = new Caminhao("VIN12345678901234", "Volvo", "FH 540", 2024, false, Veiculo.TiposCombustivel.Diesel, 500, 540, true,
         Veiculo.Tracoes.QuatroPorQuatro, Veiculo.Cores.Prata, "ABC1234", 12, 4, 2, 500000, 550000, 25, 4, Caminhao.TiposCarroceria.Bau,
         Caminhao.TiposSuspensao.FeixeDeMolas, 4.5f);
 

@@ -28,6 +28,32 @@ tipos de veículos no sistema, como carros e caminhões. Ela encapsula atributos
 eliminando a necessidade de reimplementá-los várias vezes em cada classe concreta. Dessa forma, promove a 
 reutilização de código e facilita a manutenção, garantindo consistência e coesão entre as diferentes implementações de veículos.
 
+═> INTERFACES
+As interfaces definem um contrato claro entre diferentes partes do código. Elas estabelecem quais comportamentos uma 
+classe deve implementar, sem se preocupar com os detalhes de implementação.
+Isso promove uma forte abstração, permitindo que nos concentremos no que uma classe deve fazer, em vez de como ela faz.
+
+EXEMPLO PRÁTICO UTILIZADO NO SISTEMA: INTERFACE IVENDA:
+
+A interface IVenda define um contrato que especifica os comportamentos relacionados a vendas em um sistema. 
+Ela lista três métodos principais: FazVenda(), CancelaVenda() e EstornaVenda(), que representam ações comuns relacionadas 
+ao processo de venda.
+A interface IVenda abstrai os detalhes específicos da implementação de venda, fornecendo um conjunto padronizado de métodos 
+que todas as classes que realizam vendas devem implementar.
+Todas as classes concretas que descendem de IVENDA são obrigadas a implementar os métodos da interface em questão, pois
+essa interface define os métodos cruciais para todo tipo de venda, independente de seu método de pagamento.
+
+EXEMPLO PRÁTICO DE POLIMORFISMO COM INTERFACE UTILIZADO NO SISTEMA: INTERFACE IVEICULO:
+IVeiculo possui dentre outros métodos o método ExibeIPVA. Na classe Carro que implementa a interface IVeiculo este método 
+é implementado da mesma forma como na classe Caminhao - poderiam inclusive serem implementados de formas diferentes - 
+porém é abastecido com os cálculos de forma diferente da forma como é implementado na classe Caminhao. 
+Isso permite com que para cada classe concreta sejam realizados os devidos ajustes para possibilitar o correto funcionamento 
+do sistema, porém sempre respeitando os métodos obrigatórios que são definidos no contrato da interface.
+Observar os métodos ExibeIPVA e IPVA da classe Carro; e os métodos ExibeIPVA, IPVA e PagaIPVA da classe Caminhao.
+Na classe Caminhao existe um método específico apenas para responder a pergunta de que se um Caminhão deve ou não pagar
+IPVA baseado no seu ano de fabricação - forma de codificação ideal por sinal, seguindo um dos princípios de Código Limpo, 
+no qual cada função deve fazer apenas uma coisa. Na classe Carro está pergunta é respondida no mesmo método que calcula o IPVA.
+
 ═> CONSTRUTORES:
 Um - método - construtor é um método especializado que é chamado automaticamente ao criar uma nova instância de um objeto.
 Ele inicializa os valores das propriedades do objeto, garantindo que esteja em um estado válido desde o início.
@@ -36,4 +62,4 @@ encapsula a lógica de inicialização em um único local.
 
 ═> TIPOS ENUM:
 Os tipos enum permitem que sejam passados apenas valores pré selecionados, removendo desta forma a necessidade
-constante de validações de comprimento, forma, validade, ou mesmo consultas em banco de dados.
+constante de validações de comprimento, forma, validade, ou mesmo consultas em banco de dados para recuperar informações.

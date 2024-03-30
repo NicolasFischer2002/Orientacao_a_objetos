@@ -1,0 +1,107 @@
+﻿
+═════> Nomenclatura:
+
+- A legibilidade e inteligibilidade do código deve ser priorizada
+
+- Deve-se dar preferência a nomes concisos e descritivos, sem abreviações desnecessárias e exageradas
+
+- Toda Classe deve seguir o padrão Pascal Case
+
+- Todas as propriedades da Classe devem seguir o padrão Pascal Case
+
+- Todos os métodos devem seguir o padrão Pascal Case
+
+- Variáveis locais devem sempre seguir o padrão Camel Case
+
+- Nomes apenas em língua portuguesa, salvo raras exceções em que o nome precisa ser em inglês, por exemplo,
+ao mapear retornos de APIs. Atente-se a Data Annotations como JsonProperty para o mapeamento de Json
+
+- Classes e Métodos sempre no singular
+
+- Siglas eventualmente podem ser utilizadas em letras maiúsculas em nomes de classes e métodos
+desde que não estejam desacompanhadas; Exemplos: CriaArquivoTXT, ConsultaIBGE etc
+
+- Declarações/instanciamento de métodos e objetos ou qualquer outro código que utrapasse o 
+comprimento do monitor, devem sempre ser quebrados para a linha de baixo 
+
+- Evite utilizar nomes de estruturas para nomear variáveis, como listaVendas, arrayClientes etc.
+vendas e clientes já seriam o suficiente
+
+- Variáveis no plural apenas se personificarem uma coleção; List, Array, Dictionary etc
+
+- Métodos assíncronos sempre deve possuir "Async" no nome. Por exemplo:
+public async Task FazRequisicaoAsync()
+
+- Consultas via Entity Framework e expressões lambda sempre utilizar a letra "f", exemplo:
+var retorno = contexto.TbVenda.Where(f => f.Vnd_id == "00001").FirstOrDefault();
+
+
+═════> Classes:
+
+- Toda Classe deve possuir um construtor
+
+- A Classe deve fazer apenas uma coisa, ser responsável apenas por aquilo que lhe foi designado
+
+- Respeite os modificadores de acessos de propriedades
+
+
+═════> Métodos:
+
+- Respeite os modificadores de acessos dos métodos
+
+- Preferencialmente, cada método deve fazer apenas uma coisa
+
+
+═════> Exceções
+
+- O tratamento de exceções deve ficar no método chamador
+
+- Realize LOG da exceções para que seja possível identificar o erro e seu causador
+
+
+═════> Documentação do código (comentários)
+
+- Toda classe, métodos construtores, propriedade da classe que gere qualquer ambiguidade ou for importante o suficiente, aliado a 
+métodos: deve ser documentado com a tag SUMMARY. Ademais, os comentários locais devem utilizar está sintaxe: "//".
+
+- Classes e métodos devem possuir nomes autoexplicativos. No entanto, por vezes pode ser
+necessário dar algum contexto ou mesmo explicar a regra de negócio. Isso deve ser feito
+na forma de comentários, seguindo o padrão da tag SUMMARY para iniciar os comentários
+
+- Os comentários devem ficar imediatamente acima da declaração do método para explicações gerais
+regra de negócio; e imediatamente acima do trecho de código responsável pela regra para explicações específicas
+de determinada regra de negócio
+
+- Apenas quando se fizer necessário, comentários à direita da linha do código serão admitidos afim de não
+atrapalhar a continuidade no código
+
+- Comentários devem preferencialmente ser escritos na primeira pessoa do singular
+
+- A estrutura dos comentários deve seguir este padrão:
+
+// Este é um exemplo de comentário que deve ser implementado para explicar uma determinada regra de negócio;
+// observe que, eu inicio em letra maiúscula apenas quando for o início do que seria um parágrafo, ou 
+// continuação após um ".".
+// Se este não for o caso, quebre o conteúdo para a linha de baixo e continue a escrever em letras minúsculas
+
+Caso seja necessário, o recurso de /**/ pode ser utilizado para blocos de código por exemplo
+
+
+═════> Documentações externas utilizadas no projeto, frameworks, bibliotecas, APIs
+
+- Explicitar qual framework/biblioteca/API está sendo utilizado, versão, e a documentação do mesmo
+
+
+═════> Tipo anônimos vs Topos definidos
+
+- Sempre de preferência para tipos definidos, em especial para retornos de consultas SQL e retornos de APIs.
+
+
+═════> Espaçamento vertical entre blocos e textos
+
+- Propriedades de uma classe não precisam de espaçamento vertical entre si, podendo estar
+imediatamente umas sob as outras, salvo casos excepcionais, como propriedades do tipo enum por exemplo;
+quando for este o caso, uma linha de espaçamento vertical entre o tipo enum e os demais tipos é o sufuciente
+
+- Métodos devem ter apenas uma linha que os separa dos demais métdos; essa linha deve ser contada
+imediatamente a partir do cabeçalho do método ou da primeira linha de comentários sob o cabeçalho do método

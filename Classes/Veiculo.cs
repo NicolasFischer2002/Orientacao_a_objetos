@@ -95,8 +95,6 @@ namespace Orientacao_a_objetos.Classes
             float capacidadeTanque, int potencia, bool cambioAutomatico, Tracoes tracao, Cores cor, string placa, int numeroPneus, int numeroRetrovisores, 
             int numeroLugares, float tabelaFipe, float valor)
         {
-            // Validação dos parâmetros de entrada
-
             if (codigoIdentificacao.Length != 17)
                 throw new ArgumentException("O número de identificação não pode possuir um comprimento diferente de 17 caracteres!");
 
@@ -135,8 +133,6 @@ namespace Orientacao_a_objetos.Classes
 
             if (tabelaFipe <= 0)
                 throw new ArgumentException("O valor de tabela fipe deve ser positivo!");
-
-            // Atribuição dos valores às propriedades
 
             CodigoIdentificacao = codigoIdentificacao;
             Montadora = montadora.Trim().ToUpper(); // Todas as montadoras devem estar em letra maiúscula
