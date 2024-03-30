@@ -1,0 +1,39 @@
+﻿
+═════> Descrições a respeito da arquitetura, desing, e novas práticas e tecnologias adotadas
+
+═> TAG SUMMARY:
+
+Muito útil para distinguir facilmente comentários descritivos relativos à classes, propriedades de classes e
+métodos, de comentários específicos referentes a porções menores de código e de caráter local.
+Um exemplo da sua utilidade deixando de lado seu caráter estético, é a possibilidade de adicionar comentários
+descritivos e explicativos para as propriedades de uma classe por exemplo, ou um método, descrevendo
+seu funcionamento após o mouse parar sob seu nome: uma mensagem explicativa surgirá acompanhando a assinatura
+do método, mensagem essa definida na tag SUMMARY localizada sobre a assinatura do classe/propriedade/método.
+Extremamente útil pois entrelaça o código com seus comentários reponsáveis por descrever seu funcionamento
+
+═> CLASSE ABSTRATA
+As classes abstratas são elementos-chave na programação orientada a objetos, oferecendo uma maneira de definir 
+uma estrutura comum para um grupo de classes relacionadas. Elas são importantes porque permitem capturar o 
+comportamento e as características compartilhadas entre várias classes, enquanto ainda permitem que cada classe 
+específica forneça sua própria implementação para comportamentos específicos. Isso promove a reutilização de 
+código e facilita a manutenção, uma vez que as alterações feitas na classe abstrata refletem automaticamente 
+em todas as suas subclasses. Além disso, as classes abstratas podem definir métodos que devem ser implementados 
+pelas subclasses, fornecendo um contrato claro para a implementação de funcionalidades específicas. Isso promove 
+um design mais coerente e modular, facilitando a extensão e a evolução do sistema ao longo do tempo
+
+EXEMPLO PRÁTICO UTILIZADO NO SISTEMA: CLASSE ABSTRATA VEICULO:
+
+A classe abstrata Veiculo serve como um modelo genérico para representar características comuns a todos os 
+tipos de veículos no sistema, como carros e caminhões. Ela encapsula atributos e métodos compartilhados, 
+eliminando a necessidade de reimplementá-los várias vezes em cada classe concreta. Dessa forma, promove a 
+reutilização de código e facilita a manutenção, garantindo consistência e coesão entre as diferentes implementações de veículos.
+
+═> CONSTRUTORES:
+Um - método - construtor é um método especializado que é chamado automaticamente ao criar uma nova instância de um objeto.
+Ele inicializa os valores das propriedades do objeto, garantindo que esteja em um estado válido desde o início.
+Utilizar um construtor ajuda a garantir a consistência dos objetos e simplifica o processo de criação, pois
+encapsula a lógica de inicialização em um único local.
+
+═> TIPOS ENUM:
+Os tipos enum permitem que sejam passados apenas valores pré selecionados, removendo desta forma a necessidade
+constante de validações de comprimento, forma, validade, ou mesmo consultas em banco de dados.

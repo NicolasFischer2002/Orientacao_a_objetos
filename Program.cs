@@ -45,7 +45,7 @@ try
         Console.Clear();
         Console.ForegroundColor = ConsoleColor.Green;
 
-        Console.WriteLine("Digite 1 - Para ver os veículos todos cadastrados");
+        Console.WriteLine("Digite 1 - Para ver todos os veículos cadastrados");
         Console.WriteLine("Digite 2 - Para ver todos os carros cadastrados");
         Console.WriteLine("Digite 3 - Para ver todos os caminhões cadastrados");
         Console.WriteLine("Digite 4 - Para ir para tela de vendas");
