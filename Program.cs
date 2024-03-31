@@ -12,9 +12,10 @@ e padronizado.
 "Uma Arquitetura Limpa permite que o código seja robusto e uniforme, seu desenvolvimento divertido e seu funcionamento, semelhante ao de um relógio suíço."
 Nicolas Fischer, 30/03/2024
 
- */
+*/
 
 using Orientacao_a_objetos.Classes;
+using System.Reflection;
 
 try
 {
@@ -56,6 +57,7 @@ try
     VendaBoleto vendaBoleto = new VendaBoleto(Venda.MetodoVenda.Boleto, 35000, 12, DateTime.Now, "55928023300", "66920423355", "9BWHE21JX24060831",
         DateOnly.MaxValue);
 
+    // Início das exibições no Console
     do
     {
         Console.Clear();
@@ -193,6 +195,10 @@ catch (Exception Erro)
 {
     Console.ForegroundColor = ConsoleColor.Red;
     Console.WriteLine($"\nErro inesperado: {Erro.Message}");
+
+    // Loga as exceções em um arquivo no mesmo nível de pasta do exe.
+    Excecao excecao = new Excecao("Método MAIN", Erro.Message, $"{AppDomain.CurrentDomain.BaseDirectory}LogExcecoes.txt");
+    excecao.LogaExcecaoTXT();
 }
 finally
 {

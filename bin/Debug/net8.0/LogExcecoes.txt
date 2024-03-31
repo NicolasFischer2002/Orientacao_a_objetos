@@ -1,0 +1,6 @@
+1 | Método MAIN | Index was outside the bounds of the array. | 31/03/2024 09:44:52
+2 | Método MAIN | Index was outside the bounds of the array. | 31/03/2024 09:45:18
+3 | Método MAIN | Index was outside the bounds of the array. | 31/03/2024 09:45:21
+4 | Método MAIN | Index was outside the bounds of the array. | 31/03/2024 09:45:25
+5 | Método MAIN | Index was outside the bounds of the array. | 31/03/2024 09:56:41
+6 | Método MAIN | Index was outside the bounds of the array. | 31/03/2024 09:58:37

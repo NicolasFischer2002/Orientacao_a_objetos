@@ -1,8 +1,8 @@
 ﻿
-═════> Descrições a respeito da arquitetura, desing, e novas práticas e tecnologias adotadas
+═════> Descrições a respeito da arquitetura, desing, e novas práticas e tecnologias adotadas:
 
 ═> TRATAMENTO DE EXCEÇÕES APENAS NO MÉTODO CHAMADOR FORA DA CLASSE:
-Esta técnica visa deixar o código mais limpo, facilitando no entendimento e a velocidade do desenvolvimento.
+Esta técnica visa deixar o código mais limpo, facilitando o entendimento e a velocidade do desenvolvimento.
 O tratamento de exceções só deve ser feito no método chamador localizado fora da classe, podendo ser no 
 método main de uma aplicação Console, ou em alguma Controller de uma aplicação WEB por exemplo. 
 Graças a esta convenção durante o desenvolvimento economiza-se código e tempo, pois não se faz necessário 
@@ -15,17 +15,18 @@ Um exemplo da sua utilidade deixando de lado seu caráter estético, é a possib
 descritivos e explicativos para as propriedades de uma classe por exemplo, ou um método, descrevendo
 seu funcionamento após o mouse parar sob seu nome: uma mensagem explicativa surgirá acompanhando a assinatura
 do método, mensagem essa definida na tag SUMMARY localizada sobre a assinatura do classe/propriedade/método.
-Extremamente útil pois entrelaça o código com seus comentários reponsáveis por descrever seu funcionamento
+Extremamente útil pois entrelaça o código com seus comentários reponsáveis por descrever seu funcionamento,
+semelhante as funcionalidades utilizadas pelo próprio Visual Studio para documentar suas funcionalidades.
 
 ═> CLASSE ABSTRATA
-As classes abstratas são elementos-chave na programação orientada a objetos, oferecendo uma maneira de definir 
+As classes abstratas são elementos-chave na programação orientada à objetos, oferecendo uma maneira de definir 
 uma estrutura comum para um grupo de classes relacionadas. Elas são importantes porque permitem capturar o 
 comportamento e as características compartilhadas entre várias classes, enquanto ainda permitem que cada classe 
 específica forneça sua própria implementação para comportamentos específicos. Isso promove a reutilização de 
 código e facilita a manutenção, uma vez que as alterações feitas na classe abstrata refletem automaticamente 
 em todas as suas subclasses. Além disso, as classes abstratas podem definir métodos que devem ser implementados 
 pelas subclasses, fornecendo um contrato claro para a implementação de funcionalidades específicas. Isso promove 
-um design mais coerente e modular, facilitando a extensão e a evolução do sistema ao longo do tempo
+um design mais coerente e modular, facilitando a extensão e a evolução do sistema ao longo do tempo.
 
 EXEMPLO PRÁTICO UTILIZADO NO SISTEMA: CLASSE ABSTRATA VEICULO:
 
@@ -33,6 +34,10 @@ A classe abstrata Veiculo serve como um modelo genérico para representar caract
 tipos de veículos no sistema, como carros e caminhões. Ela encapsula atributos e métodos compartilhados, 
 eliminando a necessidade de reimplementá-los várias vezes em cada classe concreta. Dessa forma, promove a 
 reutilização de código e facilita a manutenção, garantindo consistência e coesão entre as diferentes implementações de veículos.
+Caso fosse necessário implementar uma nova classe concreta para ônibus por exemplo, não seria necessário alterar o código
+já existente, apenas criar um novo arquivo para a classe Onibus, que herda todas as propriedades de Veiculo e os contratos de IVeiculo, 
+e modelar as particularidades do objeto Onibus. Isso possibilitaria apenas a adição de código - pouco código quando comparado com 
+um sistema sem classes abstratas - ao invés de reimplementações repetidas e duplicações sem sentido.
 
 ═> INTERFACES
 As interfaces definem um contrato claro entre diferentes partes do código. Elas estabelecem quais comportamentos uma 
