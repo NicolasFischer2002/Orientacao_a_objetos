@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\classes\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|c:\\desenvolvimento\\github\\c#\\orientacao_a_objetos\\classes\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:classes\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|c:\\desenvolvimento\\github\\c#\\orientacao_a_objetos\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\classes\\vendacreditocartaocorporativo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:classes\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|c:\\desenvolvimento\\github\\c#\\orientacao_a_objetos\\arquitetura e design.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\arquitetura e design.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:arquitetura e design.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
@@ -90,17 +90,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMYAAAB6AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-23T16:21:51.727Z",
               "IsPinned": true,
@@ -108,13 +108,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Veiculo.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\Veiculo.cs",
               "RelativeDocumentMoniker": "Classes\\Veiculo.cs",
               "ToolTip": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\Veiculo.cs",
               "RelativeToolTip": "Classes\\Veiculo.cs",
-              "ViewState": "AQIAANQAAAAAAAAAAAAkwMsAAAAlAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowMsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-23T16:27:44.1Z",
               "IsPinned": true,
@@ -131,8 +131,7 @@
               "ViewState": "AQIAAEUAAAAAAAAAAAAmwBIAAABwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-23T16:54:15.405Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -171,8 +170,7 @@
               "ViewState": "AQIAAB0AAAAAAAAAAAAIwCYAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T17:51:11.272Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -185,8 +183,7 @@
               "ViewState": "AQIAADIAAAAAAAAAAAAIwCYAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T18:34:07.662Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -342,12 +339,15 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAHEAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-03-30T20:25:38.853Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\README.md",
               "RelativeDocumentMoniker": "README.md",
@@ -355,12 +355,7 @@
               "RelativeToolTip": "README.md",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-04-13T01:17:47.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-04-13T01:17:47.385Z"
             }
           ]
         }

@@ -12,6 +12,8 @@ e padronizado.
 "Uma Arquitetura Limpa permite que o código seja robusto e uniforme, seu desenvolvimento divertido e seu funcionamento, semelhante ao de um relógio suíço."
 Nicolas Fischer, 30/03/2024
 
+Esta aplicação foi desenvolvida utilizando Microsoft Visual Studio Community 2022 (64 bits).
+
 */
 
 using Orientacao_a_objetos.Classes;
