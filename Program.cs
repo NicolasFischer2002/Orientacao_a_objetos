@@ -6,8 +6,8 @@ LEIA O README.
 Este estudo abrange diversos temas, todos ligados à Orientação à Objetos, Arquitetura de Software e boas práticas de codificação.
 
 O sistema se baseia em uma implementação para um estacionamento que comercializa carros e caminhões. A interação e dinâmica de funcionamento
-não são o foco deste estudo. O que realmente importa são os códigos e a estrutura do sistema. Como tudo está organizado, documentado 
-e padronizado.
+não são o foco deste estudo. O que realmente importa são os códigos e a estrutura do sistema - classes, interfaces, métodos.
+Como tudo está organizado, documentado e padronizado.
 
 "Uma Arquitetura Limpa permite que o código seja robusto e uniforme, seu desenvolvimento divertido e seu funcionamento, semelhante ao de um relógio suíço."
 Nicolas Fischer, 30/03/2024
