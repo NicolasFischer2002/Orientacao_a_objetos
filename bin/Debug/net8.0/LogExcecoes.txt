@@ -4,3 +4,4 @@
 4 | Método MAIN | Index was outside the bounds of the array. | 31/03/2024 09:45:25
 5 | Método MAIN | Index was outside the bounds of the array. | 31/03/2024 09:56:41
 6 | Método MAIN | Index was outside the bounds of the array. | 31/03/2024 09:58:37
+7 | Método MAIN | O número de identificação não pode ser nulo ou vazio! (Parameter 'codigoIdentificacao') | 12/04/2024 22:08:01

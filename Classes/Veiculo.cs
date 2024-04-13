@@ -95,8 +95,8 @@ namespace Orientacao_a_objetos.Classes
             float capacidadeTanque, int potencia, bool cambioAutomatico, Tracoes tracao, Cores cor, string placa, int numeroPneus, int numeroRetrovisores, 
             int numeroLugares, float tabelaFipe, float valor)
         {
-            if (codigoIdentificacao.Length != 17)
-                throw new ArgumentException("O número de identificação não pode possuir um comprimento diferente de 17 caracteres!");
+            // Todos os campos poderiam ser validados por funções externas ao construtor, como foi feito para o codigoIdentificação.
+            ValidaCodigoIdentificacao(codigoIdentificacao);
 
             if (string.IsNullOrEmpty(montadora))
                 throw new ArgumentNullException("Montadora não pode ser nula ou vazia!");
@@ -135,8 +135,8 @@ namespace Orientacao_a_objetos.Classes
                 throw new ArgumentException("O valor de tabela fipe deve ser positivo!");
 
             CodigoIdentificacao = codigoIdentificacao;
-            Montadora = montadora.Trim().ToUpper(); // Todas as montadoras devem estar em letra maiúscula
-            Modelo = modelo.Trim();
+            Montadora = FormataMontadora(montadora);
+            Modelo = FormataModelo(modelo);
             AnoFabricacao = anoFabricacao;
             Importado = importado;
             Combustivel = combustivel.ToString();
@@ -144,7 +144,7 @@ namespace Orientacao_a_objetos.Classes
             Potencia = potencia;
             CambioAutomatico = cambioAutomatico;
             Cor = cor.ToString();
-            Placa = placa.Trim();
+            Placa = FormataPlaca(placa);
             Tracao = tracao.ToString();
             NumeroPneus = numeroPneus;
             NumeroRetrovisores = numeroRetrovisores;
@@ -154,7 +154,52 @@ namespace Orientacao_a_objetos.Classes
         }
 
         /// <summary>
-        /// Exibe as informações do veículo no Console.
+        /// Valida o código de identificação, garantindo que não seja nulo, vazio e tenha exatamente 17 caracteres.
+        /// </summary>
+        /// <param name="codigoIdentificacao">O código de identificação a ser validado.</param>
+        /// <exception cref="ArgumentNullException">É lançada se o código de identificação for nulo ou vazio.</exception>
+        /// <exception cref="ArgumentException">É lançada se o código de identificação não tiver exatamente 17 caracteres.</exception>
+        private static void ValidaCodigoIdentificacao(string codigoIdentificacao)
+        {
+            if (string.IsNullOrEmpty(codigoIdentificacao))
+                throw new ArgumentNullException(nameof(codigoIdentificacao), "O número de identificação não pode ser nulo ou vazio!");
+
+            if (codigoIdentificacao.Length != 17)
+                throw new ArgumentException("O número de identificação deve ter exatamente 17 caracteres!", nameof(codigoIdentificacao));
+        }
+
+        /// <summary>
+        /// Formata o nome da montadora para maiúsculas e remove espaços em branco adicionais.
+        /// </summary>
+        /// <param name="montadora"></param>
+        /// <returns>O nome da montadora formatado em letras maiúsculas e sem espaços em branco adicionais.</returns>
+        private static string FormataMontadora(string montadora)
+        {
+            return montadora.Trim().ToUpper();
+        }
+
+        /// <summary>
+        /// Formata o nome do modelo removendo os espaços em brancos.
+        /// </summary>
+        /// <param name="modelo"></param>
+        /// <returns>O nome do modelo formatado sem espaços em branco.</returns>
+        private static string FormataModelo(string modelo)
+        {
+            return modelo.Trim();
+        }
+
+        /// <summary>
+        /// Formata a placa do veículo removendo os espaços em branco.
+        /// </summary>
+        /// <param name="placa"></param>
+        /// <returns>A placa do veículo formatada sem espaços em branco.</returns>
+        private static string FormataPlaca(string placa)
+        {
+            return placa.Trim();
+        }
+
+        /// <summary>
+        /// Exibe as informações do veículo no Console. Por ser um método protected, pode ser acessado apenas pelas classes que herdarem de Veiculo.
         /// </summary>
         protected void ExibeVeiculo()
         {

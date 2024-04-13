@@ -3,7 +3,31 @@
   "WorkspaceRootPath": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\arquitetura e design.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\classes\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:classes\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|c:\\desenvolvimento\\github\\c#\\orientacao_a_objetos\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\classes\\vendacreditocartaocorporativo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:classes\\vendacreditocartaocorporativo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\classes\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:classes\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\classes\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:classes\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|c:\\desenvolvimento\\github\\c#\\orientacao_a_objetos\\arquitetura e design.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:arquitetura e design.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
@@ -15,23 +39,15 @@
       "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:interfaces\\iveiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|c:\\desenvolvimento\\github\\c#\\orientacao_a_objetos\\classes\\excecao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\classes\\excecao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:classes\\excecao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\classes\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:classes\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|c:\\desenvolvimento\\github\\c#\\orientacao_a_objetos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|c:\\desenvolvimento\\github\\c#\\orientacao_a_objetos\\classes\\txt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\classes\\txt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:classes\\txt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|c:\\desenvolvimento\\github\\c#\\orientacao_a_objetos\\classes\\arquivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\classes\\arquivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:classes\\arquivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -63,20 +79,8 @@
       "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:classes\\vendacreditocartaopessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\classes\\vendacreditocartaocorporativo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:classes\\vendacreditocartaocorporativo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\classes\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:classes\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\classes\\caminhao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:classes\\caminhao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\classes\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E13535FF-6501-418B-85B5-D7C47158EC78}|Orientacao_a_objetos.csproj|solutionrelative:classes\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,17 +90,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMYAAAB6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-23T16:21:51.727Z",
               "IsPinned": true,
@@ -104,13 +108,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Veiculo.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\Veiculo.cs",
               "RelativeDocumentMoniker": "Classes\\Veiculo.cs",
               "ToolTip": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\Veiculo.cs",
               "RelativeToolTip": "Classes\\Veiculo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
+              "ViewState": "AQIAANQAAAAAAAAAAAAkwMsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-23T16:27:44.1Z",
               "IsPinned": true,
@@ -118,13 +122,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 5,
               "Title": "Carro.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\Carro.cs",
               "RelativeDocumentMoniker": "Classes\\Carro.cs",
               "ToolTip": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\Carro.cs",
               "RelativeToolTip": "Classes\\Carro.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABwAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAmwBIAAABwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-23T16:54:15.405Z",
               "IsPinned": true,
@@ -132,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Caminhao.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\Caminhao.cs",
               "RelativeDocumentMoniker": "Classes\\Caminhao.cs",
@@ -141,12 +145,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAB2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T15:08:22.097Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "IVeiculo.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Interfaces\\IVeiculo.cs",
               "RelativeDocumentMoniker": "Interfaces\\IVeiculo.cs",
@@ -155,18 +158,17 @@
               "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-23T18:13:06.913Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 4,
               "Title": "Venda.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\Venda.cs",
               "RelativeDocumentMoniker": "Classes\\Venda.cs",
               "ToolTip": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\Venda.cs",
               "RelativeToolTip": "Classes\\Venda.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAABMAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAIwCYAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T17:51:11.272Z",
               "IsPinned": true,
@@ -174,13 +176,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "VendaCreditoCartaoCorporativo.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\VendaCreditoCartaoCorporativo.cs",
               "RelativeDocumentMoniker": "Classes\\VendaCreditoCartaoCorporativo.cs",
               "ToolTip": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\VendaCreditoCartaoCorporativo.cs",
               "RelativeToolTip": "Classes\\VendaCreditoCartaoCorporativo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAWAAAA",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwCYAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T18:34:07.662Z",
               "IsPinned": true,
@@ -188,7 +190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "VendaCreditoCartaoPessoal.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\VendaCreditoCartaoPessoal.cs",
               "RelativeDocumentMoniker": "Classes\\VendaCreditoCartaoPessoal.cs",
@@ -197,12 +199,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAACUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T18:36:30.17Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "CartaoCredito.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\CartaoCredito.cs",
               "RelativeDocumentMoniker": "Classes\\CartaoCredito.cs",
@@ -211,12 +212,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T18:08:40.595Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "CartaoCreditoCorporativo.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\CartaoCreditoCorporativo.cs",
               "RelativeDocumentMoniker": "Classes\\CartaoCreditoCorporativo.cs",
@@ -225,12 +225,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-30T20:12:42.815Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "CartaoCreditoPessoal.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\CartaoCreditoPessoal.cs",
               "RelativeDocumentMoniker": "Classes\\CartaoCreditoPessoal.cs",
@@ -239,12 +238,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAACKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T18:20:06.307Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "IVenda.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Interfaces\\IVenda.cs",
               "RelativeDocumentMoniker": "Interfaces\\IVenda.cs",
@@ -253,12 +251,11 @@
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T18:39:14.864Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "VendaDeposito.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\VendaDeposito.cs",
               "RelativeDocumentMoniker": "Classes\\VendaDeposito.cs",
@@ -267,12 +264,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T18:43:27.075Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "VendaBoleto.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\VendaBoleto.cs",
               "RelativeDocumentMoniker": "Classes\\VendaBoleto.cs",
@@ -281,12 +277,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T18:50:18.71Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Arquivo.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\Arquivo.cs",
               "RelativeDocumentMoniker": "Classes\\Arquivo.cs",
@@ -295,12 +290,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-31T11:37:02.497Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "TXT.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\TXT.cs",
               "RelativeDocumentMoniker": "Classes\\TXT.cs",
@@ -309,12 +303,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-31T11:40:52.969Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Excecao.cs",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Classes\\Excecao.cs",
               "RelativeDocumentMoniker": "Classes\\Excecao.cs",
@@ -323,12 +316,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-31T11:52:56.734Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Descri\u00E7\u00F5es.txt",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Descri\u00E7\u00F5es.txt",
               "RelativeDocumentMoniker": "Descri\u00E7\u00F5es.txt",
@@ -337,12 +329,11 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-03-29T21:55:46.662Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Arquitetura e Design.txt",
               "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Arquitetura e Design.txt",
               "RelativeDocumentMoniker": "Arquitetura e Design.txt",
@@ -352,6 +343,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-03-30T20:25:38.853Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-04-13T01:17:47.385Z",
               "EditorCaption": ""
             },
             {

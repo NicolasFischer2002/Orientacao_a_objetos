@@ -15,7 +15,6 @@ Nicolas Fischer, 30/03/2024
 */
 
 using Orientacao_a_objetos.Classes;
-using System.Reflection;
 
 try
 {
