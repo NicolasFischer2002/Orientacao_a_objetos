@@ -174,8 +174,8 @@ try
 
                 default:
                     Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("\nOpção inválida! Por favor, escolha um número válido!");
-                    Console.Clear();
                     break;
             }
 

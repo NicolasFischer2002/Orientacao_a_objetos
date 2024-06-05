@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Orientacao_a_objetos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2dbbfa77768cb7d69039b15ed074b571e31dfe1a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1167b904f4aea3b020888da3bfa32b3913ea8084")]
 [assembly: System.Reflection.AssemblyProductAttribute("Orientacao_a_objetos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Orientacao_a_objetos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

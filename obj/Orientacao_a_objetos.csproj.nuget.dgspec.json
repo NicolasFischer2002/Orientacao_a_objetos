@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Orientacao_a_objetos.csproj": {}
+    "C:\\Desenvolvimento\\WEB\\GitHub\\Orientacao_a_objetos\\Orientacao_a_objetos.csproj": {}
   },
   "projects": {
-    "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Orientacao_a_objetos.csproj": {
+    "C:\\Desenvolvimento\\WEB\\GitHub\\Orientacao_a_objetos\\Orientacao_a_objetos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Orientacao_a_objetos.csproj",
+        "projectUniqueName": "C:\\Desenvolvimento\\WEB\\GitHub\\Orientacao_a_objetos\\Orientacao_a_objetos.csproj",
         "projectName": "Orientacao_a_objetos",
-        "projectPath": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\Orientacao_a_objetos.csproj",
-        "packagesPath": "C:\\Users\\Micro\\.nuget\\packages\\",
-        "outputPath": "C:\\Desenvolvimento\\GitHub\\C#\\Orientacao_a_objetos\\obj\\",
+        "projectPath": "C:\\Desenvolvimento\\WEB\\GitHub\\Orientacao_a_objetos\\Orientacao_a_objetos.csproj",
+        "packagesPath": "C:\\Users\\Nicolas Fischer\\.nuget\\packages\\",
+        "outputPath": "C:\\Desenvolvimento\\WEB\\GitHub\\Orientacao_a_objetos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Micro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nicolas Fischer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
